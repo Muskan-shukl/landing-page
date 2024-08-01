@@ -1,0 +1,22 @@
+
+.design{
+    display: flex;
+    margin-right: 32px;
+}
+.hd p{
+    margin-top: 12px;
+    font-size: 30px;
+    /* margin-right: 22px; */
+}
+.hd h3{
+    font-size: 49px;
+    margin-left: 50px;
+}
+.btn{
+    padding: 12px;
+    border-radius: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    margin-left: 50px;
+}

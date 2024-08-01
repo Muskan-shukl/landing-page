@@ -1,0 +1,62 @@
+*{
+    top: 0;
+}
+
+.header button{
+    position: fixed;
+    margin-left: 900px;
+}
+
+.header::before{
+    content: "";
+background: url(../../asserts/image/home.jpg)no-repeat center center/cover;
+position: absolute;
+position: absolute;
+    top: 0;
+    left: 0;
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+}
+nav img{
+    position: relative;
+    padding-left: 30px;
+}
+ul button{
+    background-color: rgb(59, 59, 202);
+    color: white;
+    margin-left: 750px;
+    padding: 1px 1px;
+    height: 40px;
+    width: 180px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius:23px;
+    
+}
+.h h1{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+}
+.h h1 span{
+    color: blue;
+}
+.p h1{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.p h1 span{
+    color: blue;
+}
